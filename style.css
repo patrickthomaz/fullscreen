@@ -1,0 +1,35 @@
+*,
+:after,                     /* configuração de espaço antes e depois de todos os elementos (asterísco) */
+:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html,
+#map {                  /* configuração do estilo do id (atributo único) map  */
+    width: 100%;        /* largura do html, body e do map */
+    height: 100%;       /* altura do html, body e do map (informação obrigatória para o #map) */
+}
+
+h1 {
+    font-size: 18px;            /* tamanho da fonte */
+    text-align: center;         /* alinhamento do parágrafo */
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;  /* identação do parágrafo */
+}
+
+.description {                                  /* configuração da caixa */
+    width: 300px;                                 /* largura da caixa */
+    color: #1b1d24;                               /* cor da fonte */
+    padding: 10px 14px;                           /* espaço entre a margem da caixa e a fonte*/
+    background-color: rgba(250, 250, 250, 0.8);   /* cor do fundo da caixa */
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);        /* sombra da caixa */
+    border-radius: 5px;                           /* borda da caixa */
+    border: 1px solid lightgrey;                  /* espessura da linha da borda da caixa */
+}
